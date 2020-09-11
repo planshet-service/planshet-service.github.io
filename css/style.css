@@ -1605,7 +1605,7 @@ a {
 
 .contacts .title {
     padding: 40px 0 25px 0;
-    text-align: left;
+    text-align: center;
 }
 
 .contacts .wrap_float {
@@ -2369,11 +2369,16 @@ a {
     .modal_gifts .gifts_images_right_img img {
         height: 100%
     }
-
-    .contacts p {
+	
+    .contacts .alignc {
 		width: 100%;
         text-align: center;
         margin-top: 20px;
+    }
+	
+	.contacts P {
+        margin-top: 20px;
+		margin-bottom: 10px;
     }
 	
 	.contacts table {
