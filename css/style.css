@@ -2405,21 +2405,21 @@ a {
     }
 }
 
-@media (max-width: 768px) {
-    .contacts_content {
-        text-align: center;
+@media screen and (max-width:768px) {
+    body {
+        font-size: 48%
+    }
+    .header_top_left {
+        width: 100%;
+        margin-right: 0;
+        text-align: center
     }
 	.header_top_center {
         display: none
     }
-    .header_top_left {
-        width: 100%;
-    }
     .header_top_right {
         text-align: center;
-        width: 100%;
-		clear: none;
-        margin-top: 0
+        width: 100%
     }
     .header_top_right_btn {
         width: 100%
@@ -2430,23 +2430,21 @@ a {
         margin-right: 0;
         padding-top: 7px
     }
-    .header_bottom_subtitle {
-        padding-right: 90px
+    .header_top_right .mobile_btn_callback {
+        position: absolute;
+        top: 15px;
+        right: 0
     }
-    .benefits_content .benefits_item:last-child{
-        margin: 0;
+    .section_submit,
+    .btn,
+    .prices .price_btn,
+    .modal_form_input,
+    .modal_form_submit {
+        font-size: 13px
     }
-
-    .title {
-        font-size: 4.4em;
+    .section_input {
+        font-size: 13px
     }
-	
-	.
-
-    .header_bottom .header_bottom_buttons .header_right_btn {
-        width: 100%;
-    }
-
 }
 
 @media (max-width: 767px) {
@@ -2462,48 +2460,8 @@ a {
     .header_top_center {
         display: none
     }
-    .header_top_right {
-        clear: none;
-        margin-top: 0
-    }
-    .header_top_right_btn {
-        display: none
-    }
-    .header_top_right_tel {
-        margin-right: 0;
-        padding-top: 11px
-    }
     .header_bottom_subtitle {
         padding-right: 90px
-    }
-    .header .header_iphone {
-        position: static;
-        background: none;
-        box-shadow: none;
-        width: 100%
-    }
-    .header,
-    .header .wrap_float {
-        height: auto;
-        background-position: center bottom;
-        padding-bottom: 30px
-    }
-    .header .header_iphone ul li {
-        color: #fff
-    }
-    .prices_items .prices_left,
-    .prices_items .prices_right {
-        width: 100%;
-        float: left;
-        max-width: 100%;
-        padding-top: 0
-    }
-    .prices_tabs .tab {
-        width: 47%;
-        float: left;
-        display: block;
-        margin: 0;
-        margin-bottom: 12px
     }
     .advantages_item_text {
         padding: 0 10px
@@ -2567,26 +2525,11 @@ a {
         padding: 0 15px;
         width: 100%;
     }
-    .header .header_iphone {
-        height: auto
-    }
     .header:before {
         display: none
     }
-    .header .wrap_float {
-        min-height: auto;
-        padding-bottom: 0
-    }
     .header {
         min-height: auto
-    }
-    .header .header_iphone ul li:last-child {
-        margin-bottom: 0
-    }
-    .header_top_left {
-        font-size: 4em;
-        width: auto;
-        margin-right: 0
     }
     .header_top_right_tel {
         font-size: 2.5em
@@ -2765,44 +2708,6 @@ a {
     }
 }
 
-@media screen and (max-width:768px) {
-    body {
-        font-size: 48%
-    }
-    .header_top_left {
-        width: 100%;
-        margin-right: 0;
-        text-align: center
-    }
-    .header_top_right {
-        text-align: center;
-        width: 100%
-    }
-    .header_top_right_btn {
-        width: 100%
-    }
-    .header_top_right_tel {
-        display: inline-block;
-        float: none;
-        margin-right: 0;
-        padding-top: 7px
-    }
-    .header_top_right .mobile_btn_callback {
-        position: absolute;
-        top: 15px;
-        right: 0
-    }
-    .section_submit,
-    .btn,
-    .prices .price_btn,
-    .modal_form_input,
-    .modal_form_submit {
-        font-size: 13px
-    }
-    .section_input {
-        font-size: 13px
-    }
-}
 #slides {
     position: relative;
 	width: 100%;
