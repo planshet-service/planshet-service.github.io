@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Allow: /images/
+Allow: /img/
 Disallow: /js/
 Disallow: /css/
 
@@ -8,6 +8,7 @@ User-agent: Googlebot
 Allow: /
 
 User-agent: Yandex
-Allow: /images/
+Allow: /
+Allow: /img/
 Disallow: /js/
 Disallow: /css/
