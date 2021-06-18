@@ -831,9 +831,13 @@ a {
     width: auto;
     padding: 7px 0;
     box-sizing: border-box;
-    margin-right: 0px
+    margin-right: 0px;
+	white-space:nowrap;
 }
-
+.phem {
+	white-space:nowrap;
+	vertical-align:10%;
+}
 .header_top_right_btn {
     display: block;
     float: left;
